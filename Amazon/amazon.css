@@ -1,0 +1,192 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #eaeDED;
+      margin: 0;
+      padding: 0;
+    }
+    .amazon-header {
+      background-color: #232f3e;
+      color: white;
+      padding: 10px 15px;
+    }
+
+    .amazon-header img {
+      height: 40px;
+    }
+    .amazon-nav {
+      background-color: #37475a;
+      padding: 8px 15px;
+      font-size: 14px;
+      user-select: none;
+      white-space: nowrap;
+      overflow-x: auto;
+    }
+
+    .amazon-nav .nav-link,
+    .amazon-nav .dropdown-toggle {
+      color: white;
+      font-weight: 500;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .amazon-nav .nav-link:hover,
+    .amazon-nav .dropdown-toggle:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .amazon-nav .dropdown-menu {
+      background-color: #37475a;
+      border: none;
+      min-width: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .amazon-nav .dropdown-menu a {
+      color: white;
+      padding: 8px 15px;
+    }
+
+    .amazon-nav .dropdown-menu a:hover {
+      background-color: #232f3e;
+      color: white;
+    }
+
+    .sort-nav {
+  background-color: white;
+  padding: 4px 10px;
+  font-size: 14px;
+  color: black;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.568);
+  min-height: 40px;
+  box-sizing: border-box;
+  box-shadow: 0.2rem 0 0 0 rgba(255, 255, 255, 0.25);
+}
+
+
+    .sort-nav span {
+      margin-right: 10px;
+      font-weight: 600;
+    }
+
+    .sort-nav select {
+      background-color:gainsboro;
+      color: black;
+      border: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      min-width: 160px;
+    }
+
+    .sort-nav select:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+    }
+    .sidebar {
+      min-height: 600px;
+      padding: 15px;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      transition: box-shadow 0.3s ease;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .product-card:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-image {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 5px;
+      margin-bottom: 12px;
+      flex-shrink: 0;
+    }
+
+    .price {
+      color: #b12704;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 8px;
+    }
+
+    .rating {
+      color: #ff9900;
+      margin-bottom: 8px;
+    }
+
+    .prime-badge {
+      background-color: #00a8cc;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 3px;
+      font-size: 12px;
+      align-self: flex-start;
+      margin-top: auto;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .deal-badge {
+      background-color: #cc0c39;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 3px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+
+   
+    .sponsored-card {
+      background: white;
+      color: black;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .sponsored-card{
+        background-color: gainsboro;
+       
+    }
+
+    .sponsored-card h4{
+        color: black;
+
+    }
+    .sponsored-card p {
+        color: #232f3e;
+
+      margin: 0;
+    }
+
+    .sponsored-label {
+      background: rgba(255, 255, 255, 0.3);
+      color: white;
+      font-size: 12px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-top: 6px;
+      display: inline-block;
+      font-weight: 600;
+      user-select: none;
+    }
+    @media (max-width: 768px) {
+      .amazon-nav {
+        flex-wrap: wrap;
+      }
+    }

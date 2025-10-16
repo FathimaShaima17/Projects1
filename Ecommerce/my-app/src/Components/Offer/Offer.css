@@ -1,0 +1,66 @@
+.offer-background {
+    background-color: #F2E9E4;
+    padding: 30px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    margin-bottom: -200px;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.offer-card {
+    background: #020e4a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1 1 30%; 
+    cursor: pointer;
+    height: 150px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.offer-card:hover {
+    transform: translateY(-5px);
+    background: #3650c7;
+}
+
+
+.offer-background button {
+    padding: 12px 25px;
+    background: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.offer-background button:hover {
+    background: #6e8dca;
+    transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+  .offer-card { flex: 1 1 45%; }
+}
+
+@media (max-width: 576px) {
+  .offer-card { flex: 1 1 100%; height: 120px; }
+  .offer-background button { width: 100%; }
+}

@@ -1,0 +1,18 @@
+.banner img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .banner img {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner img {
+    max-height: 200px;
+  }
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amazon</title>
+  <link rel="stylesheet" href="amazon.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+ 
+</head>
+<body>
+  <header class="amazon-header">
+  <div class="container-fluid d-flex align-items-center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" 
+         alt="Amazon Logo" 
+         style="height: 30px; filter: brightness(0) invert(1) ; cursor: pointer;" />
+
+    <small class="ms-3 text-white">
+      Deliver to<br /><strong>Location</strong>
+    </small>
+
+    <div class="flex-grow-1 mx-3">
+      <div class="input-group">
+        <select class="form-select" style="max-width: 60px;">
+          <option>All</option>
+        </select>
+        <input type="text" class="form-control" placeholder="Search" />
+        <button class="btn" style="background-color: #febd69;">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+    <div class="d-flex flex-column text-white" style="min-width: 140px;">
+      <small>Hello, Sign in</small>
+      <strong>Account & Lists</strong>
+    </div>
+    <div class="d-flex flex-column text-white mx-3" style="min-width: 110px;">
+      <small>Returns</small>
+      <strong>& Orders</strong>
+    </div>
+
+    <div class="d-flex align-items-center text-white" style="min-width: 80px; cursor: pointer;">
+      <i class="fas fa-shopping-cart fa-lg"></i>
+      <span class="ms-2">Cart</span>
+    </div>
+  </div>
+</header>
+
+  <nav class="amazon-nav d-flex align-items-center flex-nowrap">
+    <div class="dropdown me-3">
+      <a href="#" class="dropdown-toggle nav-link" id="allDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 600;">
+        <i class="fas fa-bars me-1"></i> All
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="allDropdown">
+        <li><a class="dropdown-item" href="#">Today's Deals</a></li>
+        <li><a class="dropdown-item" href="#">Customer Service</a></li>
+        <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+        <li><a class="dropdown-item" href="#">Registry</a></li>
+      </ul>
+    </div>
+    <a href="#" class="nav-link me-3">Amazon miniTV</a>
+    <a href="#" class="nav-link me-3">Sell</a>
+    <a href="#" class="nav-link me-3">Best Sellers</a>
+    <a href="#" class="nav-link me-3">Today's Deals</a>
+    <a href="#" class="nav-link me-3">Mobiles</a>
+    <a href="#" class="nav-link me-3">Prime</a>
+    <a href="#" class="nav-link me-3">Electronics</a>
+    <a href="#" class="nav-link me-3">Customer Service</a>
+    <a href="#" class="nav-link me-3">New Releases</a>
+    <a href="#" class="nav-link me-3">Home & Kitchen</a>
+    <a href="#" class="nav-link me-3">Amazon Pay</a>
+    <a href="#" class="nav-link me-3">Computers</a>
+    <a href="#" class="nav-link me-3">Gift ideas</a>
+    <a href="#" class="nav-link me-3">Books</a>
+
+
+  </nav>
+  <nav class="sort-nav">
+    <span class="anything" style="display: flex;margin-right: 1000px;">48 results for <small class="any" style="color: rgb(255, 68, 0);font-weight: 20px;">"join amazon prime"</small></span>
+    <select aria-label="Sort by options">
+      <option>Sort by:Featured</option>
+    </select>
+  </nav>
+
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <aside class="col-md-3 sidebar">
+        <div class="mb-4">
+          <h5>Category</h5>
+          <ul class="list-unstyled">
+            <li>Apps & Games</li>
+            <li>Movies & TV</li>
+            <li>Photos & Videos</li>
+            <li>Drinks Container Insulation</li>
+          </ul>
+        </div>
+
+        <div class="mb-4">
+          <h5>Customer Review</h5>
+          <div class="rating">★★★★☆ <small class="text-muted">& Up (4,339)</div></small>
+          <div class="rating">★★★☆☆<small class="text-muted"> & Up (5,346)</div></small>
+          <div class="rating">★★☆☆☆ <small class="text-muted">& Up (6,183)</div></small>
+        </div>
+
+        <div class="mb-4">
+          <h5>Brand</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="milton" />
+            <label class="form-check-label" for="milton">MILTON</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="cello" />
+            <label class="form-check-label" for="cello">Cello</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="boldfit" />
+            <label class="form-check-label" for="boldfit">BOLDFIT</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="borosil" />
+            <label class="form-check-label" for="borosil">Borosil</label>
+          </div>
+        </div>
+
+        <div>
+          <h5>Price</h5>
+          <ul class="list-unstyled">
+            <li>Under ₹500</li>
+            <li>₹500 - ₹1,000</li>
+            <li>₹1,000 - ₹2,000</li>
+            <li>₹2,000 - ₹3,000</li>
+            <li>Over ₹3,000</li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-light" style="border-color: black;">₹Min</button>
+        <button type="button" class="btn btn-light"  style="border-color: black;">₹Max</button>
+        <button type="button" class="btn btn-light"  style="border-color: black;">Go</button>
+      </aside>
+      <section class="col-md-9">
+        <div class="sponsored-card" style="color: white;">
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <h4>Amazon Prime</h4>
+              <p>Get unlimited free delivery ,streaming video and music, and more. <br><small class="ad" style="color: blue;">View benefits or sign up for prime .Mange prime account.Help</small></p>
+              <span class="sponsored-label">Sponsored</span>
+            </div>
+            <div class="col-md-4 text-center">
+              <img
+                src="./images/prime.png"
+                alt="BoldFit Banner"
+                class="img-fluid" style="height: 80px;" width="200px" />
+            </div>
+          </div>
+        </div>
+         <div class="mb-3">
+          <h5>Showing products with fast delivery <br><small class="result" style="color: blue; font-size: small;">See all products ,across price ranges</small></h5>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex">
+            <div class="product-card">
+              <img
+                src="./images/supradyn.webp"alt="supradyn"class="product-image"/>
+              <h6 style="font-weight: 10px;">Supradyn Daily India's No.1 Multivitamin (90 tablets) with Vitamin D, B12, C, E, A, Zinc...</h6>
+              <div class="rating">★★★★☆ <small class="text-muted">(2,453)</small></div>
+              <div class="price">
+                ₹332 <small class="text-muted"><del>₹390</del></small>
+              </div>
+              <span class="prime-badge">prime</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex">
+            <div class="product-card">
+              <img
+                src="./images/truebasics.webp"alt="Vitamin tablets for men"class="product-image"
+              />
+              <h6>TrueBasics Advanced Multivitamin For Men (90 Tablets) with Ashwagandha, Gokshru & Kaunch</h6>
+              <div class="rating">★★★★☆ <small class="text-muted">(1,876)</small></div>
+              <div class="price">
+                ₹1,599 <small class="text-muted"><del>₹1,899</del></small>
+              </div>
+              <span class="prime-badge">prime</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex">
+            <div class="product-card">
+              <img
+                src="./images/vitamin.webp"alt="rasayanm"class="product-image"
+              />
+              <h6>Rasayanam Multivitamin for Men | 51 ingredients & 9 Blends | Heart blend, pre and probiotic</h6>
+              <div class="rating">★★★★☆ <small class="text-muted">(2,124)</small></div>
+              <div class="price">
+                ₹662 <small class="text-muted"><del>₹749</del></small>
+              </div>
+              <span class="prime-badge">prime</span>
+            </div>
+        </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex">
+            <div class="product-card">
+              <span class="deal-badge">Amazon's Choice</span>
+              <img
+                src="./images/71KrfhDwTQL._AC_UL480_FMwebp_QL65_.webp"alt="Amazon Choice" class="product-image"
+              />
+              <h6>Decode Age DAKE supplement, Supports Vision, Immunity, Bone Heart and Skin Health, Vitamin</h6>
+              <div class="rating">★★★★★ <small class="text-muted">(845)</small></div>
+              <div class="price">
+                ₹990 <small class="text-muted"><del>₹1,500</del></small>
+              </div>
+              <span class="prime-badge">prime</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex">
+            <div class="product-card">
+              <img
+                src="./images/31W9hs7w0JL._AC_UL480_FMwebp_QL65_.webp"
+                alt="Prime video"
+                class="product-image"
+              />
+              <h6>Prime video</h6>
+              <div class="rating">★★★★★ <small class="text-muted">(153,124)</small></div>
+              <div class="price">
+                <span style="color: blue; font-weight: lighter;">App</span><br>
+                <small class="price" style="font-size: larger;">₹0 <del></del><p class="text-muted" style="font-size: small;font-weight: lighter;">Available for  download now</p></small>
+              </div>
+              <span class="prime-badge">prime</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex">
+            <div class="product-card">
+              <img
+                src="./images/daily suoradyn.webp"alt="supradyn"
+                class="product-image"/>
+              <h6>Supradyn Daily India's No.1 Multivitamin (60 tablets) with Biotin, Vitamin C, Vitamin D</h6>
+              <div class="rating">★★★☆☆ <small class="text-muted">(724)</small></div>
+              <div class="price">
+                ₹499 <small class="text-muted"><del>₹699</del></small>
+              </div>
+              <span class="prime-badge">prime</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex">
+            <div class="product-card">
+              <img
+                src="./images/himalaya.webp"alt="himalaya"class="product-image"/>
+              <h6>Himalaya Shilajith | 100% pure shilajith | 60 capsules | Enhance Stamina, Energy, and Power</h6>
+              <div class="rating">★★★★☆ <small class="text-muted">(1,114)</small></div>
+              <div class="price">
+                ₹999 <small class="text-muted"><del>₹1,200</del></small>
+              </div>
+              <span class="prime-badge">prime</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex">
+            <div class="product-card">
+              <img
+                src="./images/carbamide.webp"alt="carbamide"class="product-image"
+              />
+              <h6>Carbamide Forte Multivitamin Tablet For Men | Multi vitamin for Men with probiotics for immunity</h6>
+              <div class="rating">★★★★☆ <small class="text-muted">(3,124)</small></div>
+              <div class="price">
+                ₹749 <small class="text-muted"><del>₹999</del></small>
+              </div>
+              <span class="prime-badge">prime</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

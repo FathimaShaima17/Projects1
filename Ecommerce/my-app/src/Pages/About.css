@@ -1,0 +1,18 @@
+.about{
+border:1px solid #bdadad;
+background-color:#F2E9E4;
+height: 400px;
+padding:10px;
+border-radius:5px;
+text-align:center;
+cursor:pointer;
+transition:0.3s; 
+margin: 10px;
+}
+.aheading{
+    font-weight: bolder;
+    font-size: larger;
+}
+@media (max-width: 576px) {
+  .about { padding: 15px; font-size: 14px; }
+}

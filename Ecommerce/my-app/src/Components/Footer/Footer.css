@@ -1,0 +1,91 @@
+   .flipkart-footer {
+    min-height: 350px;
+    max-height: 400px;
+    background-color:#0B0036 ;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: relative; 
+    z-index: 1; 
+    bottom: -170px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #444;
+  padding-bottom: 30px;
+   background-color:#0B0036 ;
+}
+
+.footer-contact {
+  flex: 1 1 200px;
+   background-color: #0B0036 ;
+}
+
+.footer-contact h4 {
+  font-size: 13px;
+  color: #878787;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contact ul li {
+  margin: 6px 0;
+  color: #fff;
+  cursor: pointer;
+  
+
+}
+
+.footer-contact.address p {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 13px;
+  margin-left: 5px;
+
+  
+}
+.footer-contactaddress h4 {
+    color: #878787;
+}
+.footer-contactaddress p {
+    margin-right:16px;
+}
+.footer-contact a {
+  color: #2f82ff;
+  text-decoration: none;
+  
+
+}
+
+.social-icons span {
+  margin-right: 10px;
+  font-size: 18px;
+
+  
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #ddd;
+  padding-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .footer-top { flex-direction: column; gap: 15px; }
+  .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
+}
